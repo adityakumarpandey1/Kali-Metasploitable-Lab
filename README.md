@@ -30,3 +30,9 @@ This repository documents the setup and initial hands-on tasks for a foundationa
 | **Wireshark** | Packet Analysis | Successfully captured ICMP (ping) traffic between Kali and Metasploitable2. |
 | **Netcat** | Network Debugging | Successfully established a raw TCP connection (chat session) from Metasploitable2 to the Kali listener. |
 | **Burp Suite** | Web Proxy | Successfully intercepted and forwarded the HTTP request to the Metasploitable2 web server. |
+
+
+## Deliverables Status
+| Deliverable | Status | Location |
+| :--- | :--- | :--- |
+| **5-min Video Walkthrough** | **COMPLETED** | [Watch Lab Walkthrough Here](https://www.linkedin.com/posts/aditya-kumar-pandey-46b402318_task-1-foundations-of-cybersecurity-activity-7379108419514818560-VVN9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFCBgBMBf7nJmoNswoPt-QIneWp6MAwye74) |
