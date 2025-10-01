@@ -48,4 +48,4 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP.
 
-![Burp Suite Proxy tab showing intercepted GET request](screenshots/burpsuite.jpg)
+!(screenshots/burpsuite.jpg)
