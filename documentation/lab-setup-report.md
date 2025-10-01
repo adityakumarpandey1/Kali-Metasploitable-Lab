@@ -6,13 +6,16 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 * **Attacker:** Kali Linux
 * **Target:** Metasploitable2
-* **Proof:** Both VMs are configured on the same Host-Only network adapter.
+* **Configuration Proof:** Both VMs are configured on the same Host-Only network adapter.
+
+**VirtualBox Configuration Proof:**
+![Oracle VirtualBox Manager showing Kali and Metasploitable2](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/screen.png)
 
 **Kali IP Proof:**
-![Kali ifconfig output showing 192.168.56.x IP](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/ifconfig%20kaali.jpg)
+![Kali ifconfig output showing 192.168.56.x IP](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/ifconfig%20kaali.jpg)
 
 **Metasploitable IP Proof:**
-![Metasploitable console showing IP address](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/meta.png)
+![Metasploitable console showing IP address](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/meta.png)
 
 ***
 
@@ -20,11 +23,11 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Goal:** Confirm Kali can reach the target and identify open services for exploitation.
 
-**Command:** `nmap [Metasploitable2 IP]`
+**Command:** `nmap 192.168.56.102` (Example IP)
 
 **Result:** Nmap successfully identified numerous open ports, confirming Metasploitable2 is functioning as a vulnerable target.
 
-![Nmap scan output showing open TCP ports on target](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/nmap.jpg)
+![Nmap scan output showing open TCP ports on target](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/nmap.jpg)
 
 ***
 
@@ -36,7 +39,7 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Wireshark successfully isolated the Echo Request and Echo Reply packets.
 
-![Wireshark window filtered by ICMP traffic](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/wireshark.jpg)
+![Wireshark window filtered by ICMP traffic](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/wireshark.jpg)
 
 ***
 
@@ -48,4 +51,4 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP.
 
-![Wireshark window filtered by ICMP traffic]([screenshots/burpsuite.jpg](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/burpsuite.jpg)
+![Burp Suite Proxy tab showing intercepted GET request](https://raw.githubusercontent.com/adityakumarpandey1/Kali-Metasploitable-Lab/main/screenshots/burpsuite.jpg)
