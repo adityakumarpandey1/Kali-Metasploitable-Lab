@@ -8,6 +8,14 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 * **Target:** Metasploitable2
 * **Proof:** Both VMs are configured on the same Host-Only network adapter.
 
+**Kali IP Proof:**
+![Kali ifconfig output showing 192.168.56.x IP](screenshots/ifconfig kaali.jpg)
+
+**Metasploitable IP Proof:**
+![Metasploitable console showing IP address](screenshots/meta.png)
+
+***
+
 ## 2. Tool Verification: Nmap (Network Scanning)
 
 **Goal:** Confirm Kali can reach the target and identify open services for exploitation.
@@ -15,6 +23,10 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 **Command:** `nmap [Metasploitable2 IP]`
 
 **Result:** Nmap successfully identified numerous open ports, confirming Metasploitable2 is functioning as a vulnerable target.
+
+![Nmap scan output showing open TCP ports on target](screenshots/screen.png)
+
+***
 
 ## 3. Tool Verification: Wireshark (Packet Capture)
 
@@ -24,11 +36,16 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Wireshark successfully isolated the Echo Request and Echo Reply packets.
 
+![Wireshark window filtered by ICMP traffic](screenshots/wireshark.jpg)
+
+***
+
 ## 4. Tool Verification: Burp Suite (Web Proxy)
 
 **Goal:** Demonstrate the ability to set up an intercepting proxy for web application testing.
 
 **Process:** Configured Firefox inside Kali to proxy traffic through Burp Suite, then browsed to the Metasploitable2 web server.
 
-**Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP (`http://[Metasploitable2 IP]`) before the web page loaded.
+**Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP.
 
+![Burp Suite Proxy tab showing intercepted GET request](screenshots/burpsuite.jpg)
