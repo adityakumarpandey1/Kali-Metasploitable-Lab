@@ -36,7 +36,7 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Wireshark successfully isolated the Echo Request and Echo Reply packets.
 
-![Wireshark window filtered by ICMP traffic](screenshots/wireshark.jpg)
+![Wireshark window filtered by ICMP traffic](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/wireshark.jpg)
 
 ***
 
