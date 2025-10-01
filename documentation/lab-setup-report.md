@@ -12,7 +12,7 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 ![Kali ifconfig output showing 192.168.56.x IP](screenshots/ifconfig kaali.jpg)
 
 **Metasploitable IP Proof:**
-![Metasploitable console showing IP address](screenshots/meta.png)
+![Metasploitable console showing IP address](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/meta.png)
 
 ***
 
