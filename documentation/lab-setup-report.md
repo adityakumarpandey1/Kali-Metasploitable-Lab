@@ -9,7 +9,7 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 * **Proof:** Both VMs are configured on the same Host-Only network adapter.
 
 **Kali IP Proof:**
-![Kali ifconfig output showing 192.168.56.x IP](screenshots/ifconfig kaali.jpg)
+![Kali ifconfig output showing 192.168.56.x IP](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/ifconfig%20kaali.jpg)
 
 **Metasploitable IP Proof:**
 ![Metasploitable console showing IP address](https://github.com/adityakumarpandey1/Kali-Metasploitable-Lab/blob/main/screenshots/meta.png)
