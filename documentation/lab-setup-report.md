@@ -48,4 +48,4 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP.
 
-(screenshots/burpsuite.jpg)
+![Wireshark window filtered by ICMP traffic](screenshots/burpsuite.jpg)
