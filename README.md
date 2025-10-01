@@ -12,7 +12,7 @@ This repository documents the setup and initial hands-on tasks for a foundationa
 | **Linux Cheat-sheet** | **COMPLETED** | `notes/linux-cheat-sheet.md` |
 | **Networking Basics Notes** | **COMPLETED** | `notes/networking-basics.md` |
 | **Cryptography Basics Notes** | **COMPLETED** | `notes/cryptography-basics.md` |
-| **5-min Video Walkthrough** | **COMPLETED** | **[INSERT YOUTUBE/DRIVE LINK HERE]** |
+| **5-min Video Walkthrough** | **COMPLETED** | 
 
 ## Lab Environment Details
 
