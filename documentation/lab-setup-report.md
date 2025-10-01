@@ -24,7 +24,7 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 
 **Result:** Nmap successfully identified numerous open ports, confirming Metasploitable2 is functioning as a vulnerable target.
 
-![Nmap scan output showing open TCP ports on target](screenshots/screen.png)
+![Nmap scan output showing open TCP ports on target](screenshots/nmap.jpg)
 
 ***
 
