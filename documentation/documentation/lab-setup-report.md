@@ -31,3 +31,4 @@ The lab uses an isolated Host-Only network for safe testing, ensuring the target
 **Process:** Configured Firefox inside Kali to proxy traffic through Burp Suite, then browsed to the Metasploitable2 web server.
 
 **Proof:** Burp Suite successfully intercepted the initial `GET` request destined for the target IP (`http://[Metasploitable2 IP]`) before the web page loaded.
+
